@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+ margin: 0;
+ padding:0;
+ font-family:sans-serif;
+ background-image: url('bank.jpg');
+ background-size:cover;
+ background-position:center;
+ }
+</style>
+</head>
+<body>
+<h1>Update Profile</h1>
+<a href="index.html.html">Login</a> &nbsp;
+<a href="profile.jsp">Profile</a> &nbsp;
+<a href="updateProfile.html">Update profile</a>&nbsp; 
+<a href="delete.jsp">Delete Profile</a> &nbsp;
+<a href="showAllProfile.jsp">Show All Profile</a> &nbsp;
+<a href="logout.jsp">Logout</a> <br> <br>
+<form action="update.jsp" method="get">
+First_Name: 
+<input type="text" name="fname" class="input-box" placeholder="New Name" > <br> <br>
+Last_Name:
+<input type="text" name="lname" class="input-box" placeholder="New Last Name"> <br> <br>
+<input type="submit" value="Change">
+
+</form>
+</body>
+</html>
+ 

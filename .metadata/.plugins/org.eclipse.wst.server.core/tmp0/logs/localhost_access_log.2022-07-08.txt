@@ -1,0 +1,9 @@
+127.0.0.1 - - [08/Jul/2022:16:55:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:55:35 +0530] "GET /InputServlet/FristServlet HTTP/1.1" 200 82
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:55:40 +0530] "GET /InputServlet/SecondServlet HTTP/1.1" 404 781
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:56:17 +0530] "GET /InputServlet/SecondServlet HTTP/1.1" 404 781
+127.0.0.1 - - [08/Jul/2022:16:56:53 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:56:53 +0530] "GET /InputServlet/FristServlet HTTP/1.1" 200 82
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:56:55 +0530] "GET /InputServlet/SecondServlet HTTP/1.1" 404 781
+127.0.0.1 - - [08/Jul/2022:16:59:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jul/2022:16:59:22 +0530] "GET /InputServlet/FristServlet HTTP/1.1" 404 777

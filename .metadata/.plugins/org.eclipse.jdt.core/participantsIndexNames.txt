@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3087301658.index
+\LaxmiCheatFund\src
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3723841800.index
+\webAction\src
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2060247769.index
+\LoginAndLogout\src
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3781530743.index
+\ErrorException\src
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\864862797.index
+\actionTag\src
+F:\Advance java\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2286319862.index
+\JSTL\src

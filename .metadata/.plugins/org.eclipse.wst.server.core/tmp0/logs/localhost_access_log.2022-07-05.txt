@@ -1,0 +1,13 @@
+127.0.0.1 - - [05/Jul/2022:17:14:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:14:58 +0530] "GET /welcome/WEB-INF/classes/p1/FristServelet.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:15:36 +0530] "GET /welcomeback/hello.html HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:15:39 +0530] "GET /welcomeback/FirstServelet HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:15:49 +0530] "GET /welcomeback/FirstServelet HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:16:33 +0530] "GET /welcomeback/hello.html HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:16:34 +0530] "GET /welcomeback/FristServelet HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:20:29 +0530] "GET /welcomeback/hello.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:20:36 +0530] "GET /welcomeback/FristServelet HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:20:41 +0530] "GET /welcomeback/FristServelet HTTP/1.1" 404 780
+127.0.0.1 - - [05/Jul/2022:17:21:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:13 +0530] "GET /welcomeback/hello.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Jul/2022:17:21:16 +0530] "GET /welcomeback/FristServelet HTTP/1.1" 404 780

@@ -1,0 +1,5 @@
+127.0.0.1 - - [02/Aug/2022:22:19:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Aug/2022:22:19:12 +0530] "GET /LoginAndLogout/ HTTP/1.1" 200 1188
+0:0:0:0:0:0:0:1 - - [02/Aug/2022:22:19:39 +0530] "GET /LoginAndLogout/login.jsp?uname=hinhaneankit123@gmail.com&pass=1234 HTTP/1.1" 500 1195
+0:0:0:0:0:0:0:1 - - [02/Aug/2022:22:19:39 +0530] "GET /LoginAndLogout/login.jsp?uname=&pass= HTTP/1.1" 500 1195
+0:0:0:0:0:0:0:1 - - [02/Aug/2022:22:19:59 +0530] "GET /LoginAndLogout/login.jsp?uname=hiwaleaniket@gmail.com&pass=1234 HTTP/1.1" 200 452

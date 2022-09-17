@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+ margin: 0;
+ padding:0;
+ font-family:sans-serif;
+ background-image: url('bank.jpg');
+ background-size:cover;
+ background-position:center;
+ }
+ .sign-up-from
+ {
+   width: 500px;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+   background:white;
+   padding: 20px;
+   margin:8% auto 0;
+   text-align: center;
+ }
+ .sign-up-from h1
+ {
+   color: #1c8adb;
+   margin-bottom: 30px;
+}
+.input-box
+{
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px 0;
+   width: 80%;
+   border: 1px solid black;
+   outline: none;
+}
+button 
+{
+  color:white;
+  width:100%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+.button_i 
+{
+  color:blue;
+  width:30%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+.signup-btn
+{
+  background-color:blue;
+}
+a{
+ text-decoration: none;
+}
+hr
+{
+margin-top: 20px;
+width: 80%;
+}
+.or
+{
+background:white;
+width:30px;
+margin:-19px auto 10px;
+}
+img 
+{
+  width:70px;
+  margin-top:-50px;
+}
+</style>
+</head>
+<body>
+<div class="sign-up-from">
+  <form action="signup.jsp">
+            <fieldset>
+                <img src="user-Icon.png">
+                <h1>Sign Up</h1>
+                <legend>Personal Details</legend>
+                <input type="text" class="input-box" placeholder="Enter First Name" name="fn" id=""> <br> <br>
+                <input type="text" class="input-box" placeholder="Enter Last Name" name="ln" id=""> <br> <br>
+                <input type="date" class="input-box" placeholder="Enter date of birth" name="dob" id=""><br> <br>
+                <input type="text" class="input-box" placeholder="Enter Gender" name="ph" id=""><br><br>
+                <input type="text" class="input-box" placeholder="Enter Phone Number" name="ph" id=""><br><br>
+                <input type="text" class="input-box" placeholder="Enter Residential Address" name="ph" id=""><br><br>
+                <input type="text" class="input-box" placeholder="Enter Email" name="en" id=""><br> <br>
+                <input type="text" class="input-box" placeholder="Enter Addhar No." name="adhr" id=""><br> <br>
+                <input type="password" class="input-box" placeholder="Create Password" name="cp" id=""><br> <br>
+                <input type="password" class="input-box" placeholder="Confirm Password" name="ccp" id=""><br> <br>
+                <p><span><input type="checkbox"></span> I agree to the terms and condition</p>
+                <button type="submit" class="button_i">Sign up</button>
+                            &nbsp;
+                <hr>
+                <p class="or">OR</p>
+                <p> Already have an account ?<a href="index.html"> Sign In</a></p>
+              
+            </fieldset>
+        </form>
+        </div>
+
+</body>
+</html>

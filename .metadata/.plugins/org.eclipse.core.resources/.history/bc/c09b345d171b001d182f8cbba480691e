@@ -1,0 +1,77 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+div{
+width: 350px;
+height: 100%;
+background: olive;
+color= black;
+box-shadow: 2px 2px aqua;
+padding-left: 10px;
+}
+</style>
+</head>
+<body>
+<a href="index.html">Login</a> &nbsp;
+<a href="profile.jsp">Profile</a> &nbsp;
+<a href="updateProfile.html">Update Profile</a>&nbsp; 
+<a href="delete.jsp">Delete Profile</a> &nbsp;
+<a href="showAllProfile.jsp">Show All Profile</a> &nbsp;
+<a href="logout.jsp">Logout</a> <br> <br>
+<div >
+<%
+HttpSession sess=request.getSession(false);
+if(sess.getAttribute("session_name") !=null)
+{
+String name=(String)sess.getAttribute("session_name");
+Class.forName("com.mysql.cj.jdbc.Driver");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Banking","root","root");
+PreparedStatement ps=con.prepareStatement("select * from Profile where email=?");
+ps.setString(1, name);
+ResultSet rs=ps.executeQuery();
+while(rs.next())
+{
+	
+	out.print("First Name:");
+	out.print(rs.getString(1));
+	out.print("<br>");
+	out.print("Last Name:");
+	out.print(rs.getString(2));
+	out.print("<br>");
+	out.print("Email:");
+	out.print(rs.getString(3));
+	out.print("<br>");
+	out.print("Phone:");
+	out.print(rs.getString(5));
+	out.print("<br>");
+	out.print("DoB:");
+	out.print(rs.getString(6));
+	out.print("<br>");
+	out.print("ID:");
+	out.print(rs.getInt(7));
+	out.print("<br>");
+	int p=rs.getInt(7);
+	sess.setAttribute("session_id", p);
+
+}
+}
+else
+{
+	out.print("Login Again");
+	RequestDispatcher rd=request.getRequestDispatcher("index.html");
+	rd.include(request, response);
+}
+
+%>
+
+</body>
+</html>

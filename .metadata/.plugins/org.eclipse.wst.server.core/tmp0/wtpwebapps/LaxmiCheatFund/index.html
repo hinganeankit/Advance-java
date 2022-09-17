@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+ body {
+ margin: 0;
+ padding:0;
+ font-family:sans-serif;
+ background-image: url('bank.jpg');
+ background-size:cover;
+ background-position:center;
+ }
+ .sign-in-from
+ {
+   width: 500px;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+   background:white;
+   padding: 20px;
+   margin:8% auto 0;
+   text-align: center;
+ }
+ .sign-in-from h1
+ {
+   color: #1c8adb;
+   margin-bottom: 30px;
+}
+.input-box
+{
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px 0;
+   width: 50%;
+   border: 1px solid black;
+   outline: none;
+}
+.button_i 
+{
+  color:blue;
+  width:30%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+.signin-btn
+{
+  background-color:blue;
+  width:50%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+.google-btn
+{
+background-color: #1c8adb;
+}
+a{
+ text-decoration: none;
+}
+hr
+{
+margin-top: 20px;
+width: 80%;
+}
+.or
+{
+background:white;
+width:30px;
+margin:-19px auto 10px;
+}
+img 
+{
+  width:70px;
+  margin-top:-50px;
+}
+</style>
+</head>
+<body>
+<div class="sign-in-from">
+      <form action="signin.jsp" method="get">
+      <fieldset>
+      <img src="user-Icon.png">
+      <h1>Sign In</h1>
+      <input type="text" class="input-box" name="uname" placeholder="Your ID">
+      <input type="password" class="input-box" name ="pass" placeholder="Your Password">
+      <p><span><input type="checkbox"></span> I agree to the terms and condition</p>
+     <input type="submit" class="button_i" value ="SignIn"></input>
+      <hr>
+      <p class="or">OR</p>
+      <p> Create new bank account<a href="signup.html"> Sign Up</a></p>
+      </fieldset>
+      </form>
+      
+    </div>
+</body>
+</html>

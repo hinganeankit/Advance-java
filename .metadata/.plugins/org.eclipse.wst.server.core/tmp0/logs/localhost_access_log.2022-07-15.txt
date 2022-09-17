@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Jul/2022:17:53:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:53:07 +0530] "GET /CokkieDemo/ HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:53:13 +0530] "GET /CokkieDemo/FirstServlet?uname=Ankit HTTP/1.1" 200 307
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:53:27 +0530] "GET /CokkieDemo/FirstServlet?uname=Shreyash HTTP/1.1" 200 310
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:53:30 +0530] "GET /CokkieDemo/FirstServlet?uname= HTTP/1.1" 200 302
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:53:30 +0530] "GET /CokkieDemo/FirstServlet?uname= HTTP/1.1" 200 302
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:55:06 +0530] "GET /CokkieDemo/ HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:55:13 +0530] "GET /CokkieDemo/FirstServlet?uname=Ankit HTTP/1.1" 200 388
+0:0:0:0:0:0:0:1 - - [15/Jul/2022:17:55:15 +0530] "GET /CokkieDemo/SecondServlet HTTP/1.1" 200 59

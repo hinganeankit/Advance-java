@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+ margin: 0;
+ padding:0;
+ font-family:sans-serif;
+ background-image: url('bank.jpg');
+ background-size:cover;
+ background-position:center;
+ }
+ .Update-Proflie
+ {
+   width: 500px;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+   background:white;
+   padding: 20px;
+   margin:8% auto 0;
+   text-align: center;
+   }
+ 
+ .Update-Proflie h1
+ {
+   color: #1c8adb;
+   margin-bottom: 30px;
+}
+.input-box
+{
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px 0;
+   width: 80%;
+   border: 1px solid black;
+   outline: none;
+}
+button 
+{
+  color:white;
+  width:30%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+.button_submit 
+{
+  color:blue;
+  width:10%;
+  padding: 10px;
+  border-radius:20px;
+  font-size:10px 0;
+  border: none;
+  outlinr:none;
+  cursor: pointer; 
+}
+a{
+ text-decoration: none;
+}
+hr
+{
+margin-top: 20px;
+width: 80%;
+}
+</style>
+</head>
+<body>
+<div class="Uptade-Profile">
+<form action="update.jsp" method="get">
+<fieldset>
+<h1>Update Profile</h1>
+<a href="index.html.html">Login</a> &nbsp;
+<a href="profile.jsp">Profile</a> &nbsp;
+<a href="updateProfile.html">Update profile</a>&nbsp; 
+<a href="delete.jsp">Delete Profile</a> &nbsp;
+<a href="showAllProfile.jsp">Show All Profile</a> &nbsp;
+<a href="logout.jsp">Logout</a> <br> <br>
+
+Phone Number:     
+<input type="text" name="fname" class="input-box" placeholder="Enter New Phone Number" > <br> <br>
+Email Number:
+<input type="text" name="lname" class="input-box" placeholder="Enter New Email"> <br> <br>
+Address:
+<input type="text" name="lname" class="input-box" placeholder="Enter New Address"> <br> <br>
+Change Password:
+<input type="text" name="lname" class="input-box" placeholder="Enter New Password"> <br> <br>
+
+
+<button type="submit" class="button_submit"> Submit </button>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
+ 
